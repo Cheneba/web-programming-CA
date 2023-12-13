@@ -1,0 +1,54 @@
+textarea {
+  display: flexbox;
+  width: 100%;
+  border-color: white;
+}
+.testimonials-space {
+  width: fit-content;
+  height: fit-content;
+  align-self: center;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.comment {
+  background-color: green;
+  padding: 20px;
+  border: 20px;
+  margin: 20px;
+  min-height: 200px;
+  min-width: 250px;
+  max-width: 350px;
+  max-height: 350px;
+}
+.comment-image {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  top: -50px;
+  left: -40px;
+  border-radius: 50%;
+}
+.button {
+  width: 320px;
+  height: 60px;
+  align-self: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 3px;
+  border-color: rgb(42, 87, 57);
+  transition: 300ms;
+}
+img.bmdmap {
+  filter: saturate(1);
+}
+.button:hover {
+  background-color: rgb(9, 116, 9);
+}
+input[type="text"] {
+  border: 0rem;
+  font-size: larger;
+  font-weight: bold;
+}

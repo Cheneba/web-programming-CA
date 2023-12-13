@@ -1,0 +1,131 @@
+.main {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+.search-bar {
+  font-size: 17px;
+  width: 58%;
+  padding: 7px 0px 7px 25px;
+  outline: none;
+  border: none;
+  align-self: center;
+  border: 2px solid rgb(155, 154, 154);
+  border-radius: 50px;
+  margin-top: 20px;
+}
+/* 
+.search-icon {
+  width: 23px;
+}
+.search-icon-tooltip {
+  width: 22px;
+  height: 22px;
+  margin-left: 110px;
+  margin-top: -30px;
+}
+.search-icon-tooltip .tooltip {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 13px;
+  margin-top: 7px;
+  margin-left: -20px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.search-icon-tooltip:hover .tooltip {
+  opacity: 1;
+}
+.search-icon-tooltip:hover {
+  cursor: pointer;
+} */
+.welcome-image {
+  display: block;
+  width: 100%;
+  margin: 30px auto;
+}
+@media screen and (max-width: 850px) {
+  .welcome-image {
+    width: 100%;
+  }
+}
+.welcome-title {
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(25, 136, 25);
+  text-align: center;
+}
+.welcome-speech {
+  margin: 10px 0;
+  font-size: 20px;
+  width: 60%;
+  align-self: center;
+}
+
+@media screen and (max-width: 700px) {
+  .welcome-speech {
+    width: 100%;
+  }
+}
+.interest-point {
+  align-self: center;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: rgb(32, 201, 32);
+}
+.site-container {
+  width: 75%;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.touristic-site {
+  display: inline-block;
+  width: 33.333%;
+  padding: 2%;
+  height: 360px;
+  vertical-align: top;
+}
+@media screen and (max-width: 1250px) {
+  .touristic-site {
+    width: 50%;
+  }
+}
+.site-title {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.site-image {
+  display: block;
+  height: 250px;
+  width: 100%;
+}
+.site-button {
+  border: 2px solid green;
+  padding: 5px 0;
+  width: 100%;
+  font-size: 15px;
+}
+.site-button:hover {
+  cursor: pointer;
+}
+/* 
+.upload-space {
+  display: inline-block;
+  width: 400px;
+  height: 360px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+}
+.upload-icon {
+  width: 100px;
+  margin-left: 120px;
+  margin-top: 80px;
+} */
